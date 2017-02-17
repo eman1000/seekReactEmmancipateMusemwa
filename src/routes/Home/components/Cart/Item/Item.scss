@@ -1,0 +1,19 @@
+.item{
+	height: 5rem;
+	margin-bottom: 1rem;
+	.circle{
+		width: 5rem;
+		height: 5rem;
+		border-radius: 50%;
+		background-color: #F7F7F7;
+	}
+	.classic{
+		background-color: #F7F7F7;
+	}
+	.standout{
+		background-color: #E6FCDE;
+	}
+	.premium{
+		background-color: #FAF6CF;
+	}
+}

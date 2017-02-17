@@ -1,0 +1,9 @@
+:global(.modal-body){
+	padding: 5rem;
+	:global(.btn){
+		height: 4.5rem;
+	}
+	h4{
+		color: green;
+	}
+}

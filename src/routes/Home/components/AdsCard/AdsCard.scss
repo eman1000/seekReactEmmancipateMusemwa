@@ -1,0 +1,40 @@
+.cardContainer{
+	width: 100%;
+    border-radius: 0.7rem;
+    padding: 2.1rem;
+    margin-bottom: 2rem;
+    &:hover{
+        box-shadow: 0 0 1rem 0 hsla(0, 0%, 50%, .5);
+        cursor: pointer;
+    }
+    .price{
+    	font-size: 4.2rem;
+    }
+    .discountedPrice{
+    	color: red;
+    	font-size: 4.2rem;
+    }
+    .cancelPrice{
+    	font-size: 2rem;
+    	text-decoration: line-through;
+    }
+    :global(.btn){
+		width: 100%;
+		text-transform: uppercase;
+		height: 4.5rem;
+		border: none;
+	    &:hover{
+	        box-shadow: 0 0 1rem 0 hsla(0, 0%, 50%, .5);
+	        cursor: pointer;
+	    }
+    }
+}
+.classic{
+	background-color: #F7F7F7;
+}
+.standout{
+	background-color: #E6FCDE;
+}
+.premium{
+	background-color: #FAF6CF;
+}

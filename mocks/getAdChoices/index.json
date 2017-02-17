@@ -1,0 +1,66 @@
+{
+    "adChoices":[{
+        "id":"classic",
+        "name":"Classic Ad",
+        "price":269.99,
+        "currency":"$",
+        "description":"Lorem Ipsum"
+    },{
+        "id":"standout",
+        "name":"Standout Ad",
+        "price":322.99,
+        "currency":"$",
+        "description":"Lorem Ipsum"
+    },{
+        "id":"premium",
+        "name":"Premium Ad",
+        "price":394.99,
+        "currency":"$",
+        "description":"Lorem Ipsum"
+    }],
+    "customers":[{
+        "name":"Unilever",
+        "deals":{
+            "classic":{
+                "adsToMeet":2,
+                "adsToAdd":3
+            }
+        }
+    },{
+        "name":"Apple",
+        "deals":{
+            "standout":{
+                "discountedPrice":299.99,
+                "per":1
+            }
+        }
+    },{
+        "name":"Nike",
+        "deals":{
+            "standout":{
+                "discountedPrice":299.99,
+                "per":1
+            },
+            "premium":{
+                "discountedPrice":379.99,
+                "conditionPurchase":4
+            }
+        }
+    },{
+        "name":"Ford",
+        "deals":{
+            "classic":{
+                "adsToMeet":4,
+                "adsToAdd":5
+            },
+            "standout":{
+                "discountedPrice":309.99,
+                "per":1
+            },
+            "premium":{
+                "discountedPrice":389.99,
+                "conditionPurchase":3
+            }
+        }
+    }]
+}
