@@ -1,4 +1,4 @@
-MayBank M2U
+
 ===========
 
 Frontend code for Seek Checkout
